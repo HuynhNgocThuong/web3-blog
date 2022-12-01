@@ -33,4 +33,6 @@ describe("Blog", async function () {
     await blog.updateName("My new blog");
     expect(await blog.name()).to.equal("My new blog");
   });
+
+  it("Add new test case", async function () {});
 });
